@@ -1,18 +1,18 @@
 //
-//  SMCustom2View.m
+//  SMCustom3View.m
 //  SMCustomViewXIB
 //
 //  Created by __liangdahong on 2017/4/23.
 //  Copyright © 2017年 http://idhong.com. All rights reserved.
 //
 
-#import "SMCustom2View.h"
+#import "SMCustom3View.h"
 #include "SMCustomViewXIB.h"
 
-@interface SMCustom2View () <SMCustomViewXIB>
+@interface SMCustom3View () <SMCustomViewXIB>
 
 @end
 
-@implementation SMCustom2View
+@implementation SMCustom3View
 
 @end

@@ -5,12 +5,13 @@
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11762"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SMCustom2VC">
             <connections>
+                <outlet property="scroll" destination="9de-UW-Jch" id="Jxm-lT-Ytq"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -19,20 +20,34 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y2w-fj-3AP" customClass="SMCustom2View">
-                    <rect key="frame" x="0.0" y="10" width="375" height="60"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9de-UW-Jch">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z3t-Zf-rS0">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="669"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" priority="999" constant="669" id="Qwv-Pz-lE1"/>
+                            </constraints>
+                        </view>
+                    </subviews>
                     <constraints>
-                        <constraint firstAttribute="height" constant="60" id="QZ7-Qh-oJi"/>
+                        <constraint firstAttribute="bottom" secondItem="Z3t-Zf-rS0" secondAttribute="bottom" id="8D4-JD-2zC"/>
+                        <constraint firstAttribute="trailing" secondItem="Z3t-Zf-rS0" secondAttribute="trailing" id="KhF-6E-HQL"/>
+                        <constraint firstItem="Z3t-Zf-rS0" firstAttribute="top" secondItem="9de-UW-Jch" secondAttribute="top" id="dSn-dl-roi"/>
+                        <constraint firstItem="Z3t-Zf-rS0" firstAttribute="leading" secondItem="9de-UW-Jch" secondAttribute="leading" id="dcg-rd-lGG"/>
                     </constraints>
-                </view>
+                </scrollView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="Y2w-fj-3AP" secondAttribute="trailing" id="0cv-wl-Zrk"/>
-                <constraint firstItem="Y2w-fj-3AP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="HDz-U0-16U"/>
-                <constraint firstItem="Y2w-fj-3AP" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="10" id="PAP-yp-W8N"/>
+                <constraint firstItem="Z3t-Zf-rS0" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="KD8-xA-ClL"/>
+                <constraint firstAttribute="bottom" secondItem="9de-UW-Jch" secondAttribute="bottom" id="NMg-BW-OSN"/>
+                <constraint firstAttribute="trailing" secondItem="9de-UW-Jch" secondAttribute="trailing" id="Oeo-ta-R3x"/>
+                <constraint firstItem="9de-UW-Jch" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="cG9-c5-1cN"/>
+                <constraint firstItem="9de-UW-Jch" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="hUV-X4-A8a"/>
             </constraints>
+            <point key="canvasLocation" x="62.5" y="-319.5"/>
         </view>
     </objects>
 </document>

@@ -1,5 +1,5 @@
 //
-//  UIView+SMCustomViewXIB.h
+//  SMCustom3View.h
 //  SMCustomViewXIB
 //
 //  Created by __liangdahong on 2017/4/23.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (SMCustomViewXIB)
-
-@property (nonatomic, assign, setter=sm_setCustomViewXIB:) IBInspectable BOOL sm_customViewXIB;
+@interface SMCustom3View : UIView
 
 @end

@@ -9,6 +9,7 @@
 #import "SMCustom2VC.h"
 
 @interface SMCustom2VC ()
+@property (weak, nonatomic) IBOutlet UIScrollView *scroll;
 
 @end
 
@@ -16,6 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+    self.scroll.keyboardDismissMode = UIScrollViewKeyboardDismissModeOnDrag;
 }
 
 @end
