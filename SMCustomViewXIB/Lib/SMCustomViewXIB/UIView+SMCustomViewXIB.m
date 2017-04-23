@@ -1,20 +1,16 @@
+//
+//  UIView+SMCustomViewXIB.m
+//  SMCustomViewXIB
+//
+//  Created by __liangdahong on 2017/4/23.
+//  Copyright © 2017年 http://idhong.com. All rights reserved.
+//
 
-//
-//  UIView+BMXib.m
-//  BMXib-01
-//
-//  Created by ___liangdahong on 2017/4/21.
-//  Copyright © 2017年 ___liangdahong. All rights reserved.
-//
-
+#import "UIView+SMCustomViewXIB.h"
 #import <objc/runtime.h>
-#import <UIKit/UIKit.h>
 #import "Masonry.h"
 
-@implementation UIView (BMXib)
-
-void swizzleMethod(Class class, SEL originalSelector, SEL swizzledSelector)
-{
+void swizzleMethod(Class class, SEL originalSelector, SEL swizzledSelector) {
     Method originalMethod = class_getInstanceMethod(class, originalSelector);
     Method swizzledMethod = class_getInstanceMethod(class, swizzledSelector);
     BOOL didAddMethod = class_addMethod(class, originalSelector, method_getImplementation(swizzledMethod), method_getTypeEncoding(swizzledMethod));
@@ -25,8 +21,20 @@ void swizzleMethod(Class class, SEL originalSelector, SEL swizzledSelector)
     }
 }
 
-+ (void)load {
+@implementation UIView (SMCustomViewXIB)
 
+- (void)sm_setCustomViewXIB:(BOOL)sm_customViewXIB {
+    
+    objc_setAssociatedObject(self, @selector(sm_customViewXIB), @(sm_customViewXIB), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+
+- (BOOL)sm_customViewXIB {
+    
+    return [objc_getAssociatedObject(self, _cmd) boolValue];
+}
+
++ (void)load {
+    
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         // 交换 initWithCoder:
@@ -37,8 +45,6 @@ void swizzleMethod(Class class, SEL originalSelector, SEL swizzledSelector)
         swizzleMethod([self class], @selector(init), @selector(bm_init));
     });
 }
-
-- (void)setValue:(id)value forUndefinedKey:(NSString *)key {}
 
 - (instancetype)bm_initWithCoder:(NSCoder *)coder {
     [self bm_initWithCoder:coder];
@@ -59,16 +65,15 @@ void swizzleMethod(Class class, SEL originalSelector, SEL swizzledSelector)
 }
 
 - (void)addUI {
-//    if ([self isKindOfClass:[UITableViewCell class]]) {
-//        return;
-//    }
-//    
     
-    NSLog(@"%@", [NSString stringWithUTF8String:class_getName([self class])]);
+    if (!self.sm_customViewXIB) {
+        return;
+    }
     
     NSString *path = [[NSBundle mainBundle] pathForResource:NSStringFromClass([self class]) ofType:@"nib"];
+
     if (path.length) {
-        NSArray <UIView *> *views = [[UINib nibWithNibName:NSStringFromClass([self class]) bundle:nil] instantiateWithOwner:self options:nil];        
+        NSArray <UIView *> *views = [[UINib nibWithNibName:NSStringFromClass([self class]) bundle:nil] instantiateWithOwner:self options:nil];
         if (views.count) {
             UIView *view = views[0];
             [self addSubview:view];

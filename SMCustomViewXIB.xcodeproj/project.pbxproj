@@ -25,7 +25,15 @@
 		3126232A1EACB14300790D30 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3126231D1EACB14300790D30 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		3126232B1EACB14300790D30 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3126231F1EACB14300790D30 /* View+MASAdditions.m */; };
 		3126232C1EACB14300790D30 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 312623221EACB14300790D30 /* ViewController+MASAdditions.m */; };
-		3126232E1EACB18D00790D30 /* UIView+BMXib.m in Sources */ = {isa = PBXBuildFile; fileRef = 3126232D1EACB18D00790D30 /* UIView+BMXib.m */; };
+		312623471EACCF9800790D30 /* SMCustom1VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3126233C1EACCF9800790D30 /* SMCustom1VC.m */; };
+		312623481EACCF9800790D30 /* SMCustom1VC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3126233D1EACCF9800790D30 /* SMCustom1VC.xib */; };
+		312623491EACCF9800790D30 /* SMCustom1View.m in Sources */ = {isa = PBXBuildFile; fileRef = 312623411EACCF9800790D30 /* SMCustom1View.m */; };
+		3126234A1EACCF9800790D30 /* SMCustom1View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 312623421EACCF9800790D30 /* SMCustom1View.xib */; };
+		3126234E1EACCFAB00790D30 /* SMCustom2VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3126234C1EACCFAB00790D30 /* SMCustom2VC.m */; };
+		3126234F1EACCFAB00790D30 /* SMCustom2VC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3126234D1EACCFAB00790D30 /* SMCustom2VC.xib */; };
+		312623521EACCFDA00790D30 /* SMCustom2View.m in Sources */ = {isa = PBXBuildFile; fileRef = 312623511EACCFDA00790D30 /* SMCustom2View.m */; };
+		312623541EACCFE100790D30 /* SMCustom2View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 312623531EACCFE100790D30 /* SMCustom2View.xib */; };
+		3126235B1EACD07C00790D30 /* UIView+SMCustomViewXIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 3126235A1EACD07C00790D30 /* UIView+SMCustomViewXIB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,7 +95,20 @@
 		312623201EACB14300790D30 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		312623211EACB14300790D30 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		312623221EACB14300790D30 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		3126232D1EACB18D00790D30 /* UIView+BMXib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BMXib.m"; sourceTree = "<group>"; };
+		3126233B1EACCF9800790D30 /* SMCustom1VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCustom1VC.h; sourceTree = "<group>"; };
+		3126233C1EACCF9800790D30 /* SMCustom1VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCustom1VC.m; sourceTree = "<group>"; };
+		3126233D1EACCF9800790D30 /* SMCustom1VC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMCustom1VC.xib; sourceTree = "<group>"; };
+		312623401EACCF9800790D30 /* SMCustom1View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCustom1View.h; sourceTree = "<group>"; };
+		312623411EACCF9800790D30 /* SMCustom1View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCustom1View.m; sourceTree = "<group>"; };
+		312623421EACCF9800790D30 /* SMCustom1View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMCustom1View.xib; sourceTree = "<group>"; };
+		3126234B1EACCFAB00790D30 /* SMCustom2VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCustom2VC.h; sourceTree = "<group>"; };
+		3126234C1EACCFAB00790D30 /* SMCustom2VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCustom2VC.m; sourceTree = "<group>"; };
+		3126234D1EACCFAB00790D30 /* SMCustom2VC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMCustom2VC.xib; sourceTree = "<group>"; };
+		312623501EACCFDA00790D30 /* SMCustom2View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCustom2View.h; sourceTree = "<group>"; };
+		312623511EACCFDA00790D30 /* SMCustom2View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCustom2View.m; sourceTree = "<group>"; };
+		312623531EACCFE100790D30 /* SMCustom2View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMCustom2View.xib; sourceTree = "<group>"; };
+		312623591EACD07C00790D30 /* UIView+SMCustomViewXIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SMCustomViewXIB.h"; sourceTree = "<group>"; };
+		3126235A1EACD07C00790D30 /* UIView+SMCustomViewXIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SMCustomViewXIB.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,7 +208,8 @@
 		312622F91EACB03B00790D30 /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				312622FE1EACB09A00790D30 /* Data */,
+				312623391EACCF9800790D30 /* Custom1 */,
+				312623431EACCF9800790D30 /* Custom2 */,
 				312622FD1EACB09A00790D30 /* Controller */,
 				312623021EACB09A00790D30 /* Model */,
 				312623031EACB09A00790D30 /* View */,
@@ -198,7 +220,7 @@
 		312622FA1EACB03B00790D30 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				3126232D1EACB18D00790D30 /* UIView+BMXib.m */,
+				312623551EACD03B00790D30 /* SMCustomViewXIB */,
 				312623091EACB14300790D30 /* Masonry */,
 			);
 			path = Lib;
@@ -212,37 +234,6 @@
 				312623061EACB0B400790D30 /* SMRootVC.xib */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		312622FE1EACB09A00790D30 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				312622FF1EACB09A00790D30 /* Controller */,
-				312623001EACB09A00790D30 /* Model */,
-				312623011EACB09A00790D30 /* View */,
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
-		312622FF1EACB09A00790D30 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		312623001EACB09A00790D30 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		312623011EACB09A00790D30 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		312623021EACB09A00790D30 /* Model */ = {
@@ -289,6 +280,89 @@
 				312623221EACB14300790D30 /* ViewController+MASAdditions.m */,
 			);
 			path = Masonry;
+			sourceTree = "<group>";
+		};
+		312623391EACCF9800790D30 /* Custom1 */ = {
+			isa = PBXGroup;
+			children = (
+				3126233A1EACCF9800790D30 /* Controller */,
+				3126233E1EACCF9800790D30 /* Model */,
+				3126233F1EACCF9800790D30 /* View */,
+			);
+			path = Custom1;
+			sourceTree = "<group>";
+		};
+		3126233A1EACCF9800790D30 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3126233B1EACCF9800790D30 /* SMCustom1VC.h */,
+				3126233C1EACCF9800790D30 /* SMCustom1VC.m */,
+				3126233D1EACCF9800790D30 /* SMCustom1VC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3126233E1EACCF9800790D30 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3126233F1EACCF9800790D30 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				312623401EACCF9800790D30 /* SMCustom1View.h */,
+				312623411EACCF9800790D30 /* SMCustom1View.m */,
+				312623421EACCF9800790D30 /* SMCustom1View.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		312623431EACCF9800790D30 /* Custom2 */ = {
+			isa = PBXGroup;
+			children = (
+				312623441EACCF9800790D30 /* Controller */,
+				312623451EACCF9800790D30 /* Model */,
+				312623461EACCF9800790D30 /* View */,
+			);
+			path = Custom2;
+			sourceTree = "<group>";
+		};
+		312623441EACCF9800790D30 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3126234B1EACCFAB00790D30 /* SMCustom2VC.h */,
+				3126234C1EACCFAB00790D30 /* SMCustom2VC.m */,
+				3126234D1EACCFAB00790D30 /* SMCustom2VC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		312623451EACCF9800790D30 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		312623461EACCF9800790D30 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				312623501EACCFDA00790D30 /* SMCustom2View.h */,
+				312623511EACCFDA00790D30 /* SMCustom2View.m */,
+				312623531EACCFE100790D30 /* SMCustom2View.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		312623551EACD03B00790D30 /* SMCustomViewXIB */ = {
+			isa = PBXGroup;
+			children = (
+				312623591EACD07C00790D30 /* UIView+SMCustomViewXIB.h */,
+				3126235A1EACD07C00790D30 /* UIView+SMCustomViewXIB.m */,
+			);
+			path = SMCustomViewXIB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -401,7 +475,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				312622D21EACAFE200790D30 /* LaunchScreen.storyboard in Resources */,
+				312623481EACCF9800790D30 /* SMCustom1VC.xib in Resources */,
 				312622CF1EACAFE200790D30 /* Assets.xcassets in Resources */,
+				3126234A1EACCF9800790D30 /* SMCustom1View.xib in Resources */,
+				3126234F1EACCFAB00790D30 /* SMCustom2VC.xib in Resources */,
+				312623541EACCFE100790D30 /* SMCustom2View.xib in Resources */,
 				312623081EACB0B400790D30 /* SMRootVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,10 +505,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				312623471EACCF9800790D30 /* SMCustom1VC.m in Sources */,
+				312623491EACCF9800790D30 /* SMCustom1View.m in Sources */,
+				3126234E1EACCFAB00790D30 /* SMCustom2VC.m in Sources */,
 				3126232A1EACB14300790D30 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				312623521EACCFDA00790D30 /* SMCustom2View.m in Sources */,
 				312623281EACB14300790D30 /* MASViewConstraint.m in Sources */,
 				312623231EACB14300790D30 /* MASCompositeConstraint.m in Sources */,
-				3126232E1EACB18D00790D30 /* UIView+BMXib.m in Sources */,
 				312623291EACB14300790D30 /* NSArray+MASAdditions.m in Sources */,
 				312622FC1EACB03B00790D30 /* main.m in Sources */,
 				312622FB1EACB03B00790D30 /* AppDelegate.m in Sources */,
@@ -439,6 +520,7 @@
 				3126232C1EACB14300790D30 /* ViewController+MASAdditions.m in Sources */,
 				3126232B1EACB14300790D30 /* View+MASAdditions.m in Sources */,
 				312623271EACB14300790D30 /* MASViewAttribute.m in Sources */,
+				3126235B1EACD07C00790D30 /* UIView+SMCustomViewXIB.m in Sources */,
 				312623241EACB14300790D30 /* MASConstraint.m in Sources */,
 				312623251EACB14300790D30 /* MASConstraintMaker.m in Sources */,
 			);

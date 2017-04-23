@@ -8,6 +8,8 @@
 //
 
 #import "SMRootVC.h"
+#import "SMCustom1VC.h"
+#import "SMCustom2VC.h"
 
 @interface SMRootVC ()
 
@@ -25,10 +27,15 @@
     self.title = @"SMRootVC";
 }
 
+
 #pragma mark - getters setters
 #pragma mark - 系统delegate
 #pragma mark - 自定义delegate
 #pragma mark - 公有方法
 #pragma mark - 私有方法
 #pragma mark - 事件响应
+
+- (IBAction)custom1ButtonClick {
+    [self.navigationController pushViewController:[SMCustom2VC new] animated:YES];
+}
 @end
