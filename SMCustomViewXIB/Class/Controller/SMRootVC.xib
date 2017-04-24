@@ -25,7 +25,7 @@
                     <constraints>
                         <constraint firstAttribute="height" constant="30" id="c8D-HA-vN7"/>
                     </constraints>
-                    <state key="normal" title="代码加载 xib 封装的view"/>
+                    <state key="normal" title="xib加载 xib 封装的view"/>
                     <connections>
                         <action selector="custom1ButtonClick" destination="-1" eventType="touchUpInside" id="ZP2-o8-bDK"/>
                     </connections>
@@ -36,7 +36,7 @@
                     <constraints>
                         <constraint firstAttribute="height" constant="30" id="Vll-rb-Azg"/>
                     </constraints>
-                    <state key="normal" title="xib 加载 xib 封装的view"/>
+                    <state key="normal" title="代码 加载 xib 封装的view"/>
                     <connections>
                         <action selector="custom2ButtonClick" destination="-1" eventType="touchUpInside" id="TUG-6b-SzM"/>
                     </connections>
@@ -47,7 +47,7 @@
                     <constraints>
                         <constraint firstAttribute="height" constant="30" id="mBX-26-P22"/>
                     </constraints>
-                    <state key="normal" title="new 加载 xib 封装的view"/>
+                    <state key="normal" title="xib嵌套 加载 xib 封装的view"/>
                     <connections>
                         <action selector="custom3ButtonClick" destination="-1" eventType="touchUpInside" id="x8R-2f-Jwn"/>
                     </connections>

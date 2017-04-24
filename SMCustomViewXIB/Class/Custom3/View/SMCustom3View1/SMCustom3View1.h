@@ -1,5 +1,5 @@
 //
-//  SMCustom3VC.h
+//  SMCustom3View1.h
 //  SMCustomViewXIB
 //
 //  Created by ___liangdahong on 2017/4/24.
@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#include "SMCustomViewXIB.h"
 
-@interface SMCustom3VC : UIViewController
+@interface SMCustom3View1 : UIView <SMCustomViewXIBProtocol>
 
 @end

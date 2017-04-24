@@ -3,7 +3,7 @@
 //  SMCustomViewXIB
 //
 //  Created by ___liangdahong on 2017/4/24.
-//  Copyright © 2017年 http://idhong.com. All rights reserved.
+//  Copyright © 2017年 https://github.com/asiosldh/SMCustomViewXIB All rights reserved.
 //
 
 #import "SMCustom3VC.h"
@@ -17,7 +17,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
 }
 
 @end

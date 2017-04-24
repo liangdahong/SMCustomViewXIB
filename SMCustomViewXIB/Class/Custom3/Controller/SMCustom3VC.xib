@@ -19,16 +19,26 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U11-VN-76a" customClass="SMCustomView">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U11-VN-76a" customClass="SMCustom3View1">
                     <rect key="frame" x="0.0" y="10" width="375" height="100"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="100" id="z6l-Hj-aVA"/>
                     </constraints>
                 </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uDr-Td-HDw" customClass="SMCustom3View2">
+                    <rect key="frame" x="0.0" y="367" width="375" height="300"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="300" id="Jvp-JP-3Ii"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstAttribute="bottom" secondItem="uDr-Td-HDw" secondAttribute="bottom" id="5ps-hU-Izf"/>
+                <constraint firstItem="uDr-Td-HDw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="E83-5A-lEn"/>
+                <constraint firstAttribute="trailing" secondItem="uDr-Td-HDw" secondAttribute="trailing" id="N0f-Cy-UDc"/>
                 <constraint firstItem="U11-VN-76a" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="10" id="TSV-38-pgg"/>
                 <constraint firstAttribute="trailing" secondItem="U11-VN-76a" secondAttribute="trailing" id="WTl-SK-8ky"/>
                 <constraint firstItem="U11-VN-76a" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="r73-pD-jFt"/>

@@ -11,7 +11,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SMCustom2VC">
             <connections>
-                <outlet property="scroll" destination="9de-UW-Jch" id="Jxm-lT-Ytq"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -19,54 +18,7 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <subviews>
-                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9de-UW-Jch">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                    <subviews>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="myD-GG-MMU" customClass="SMCustom2View">
-                            <rect key="frame" x="0.0" y="10" width="375" height="100"/>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="100" id="COr-ia-jMR"/>
-                            </constraints>
-                        </view>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ndz-LR-P5y" customClass="SMCustom4View">
-                            <rect key="frame" x="0.0" y="360" width="375" height="200"/>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="200" id="J09-4F-trK"/>
-                            </constraints>
-                        </view>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5fB-jz-Ea7" customClass="SMCustom3View">
-                            <rect key="frame" x="0.0" y="130" width="375" height="200"/>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="200" id="Gvy-iJ-zRM"/>
-                            </constraints>
-                        </view>
-                    </subviews>
-                    <constraints>
-                        <constraint firstAttribute="bottom" secondItem="Ndz-LR-P5y" secondAttribute="bottom" constant="10" id="3Sg-gI-FbM"/>
-                        <constraint firstAttribute="trailing" secondItem="myD-GG-MMU" secondAttribute="trailing" id="HgU-Im-2lM"/>
-                        <constraint firstItem="Ndz-LR-P5y" firstAttribute="top" secondItem="5fB-jz-Ea7" secondAttribute="bottom" constant="30" id="JJD-9G-zY6"/>
-                        <constraint firstAttribute="trailing" secondItem="5fB-jz-Ea7" secondAttribute="trailing" id="Q2a-10-N4T"/>
-                        <constraint firstItem="5fB-jz-Ea7" firstAttribute="top" secondItem="myD-GG-MMU" secondAttribute="bottom" constant="20" id="dgG-gP-uSi"/>
-                        <constraint firstItem="myD-GG-MMU" firstAttribute="leading" secondItem="9de-UW-Jch" secondAttribute="leading" id="iko-KJ-stw"/>
-                        <constraint firstAttribute="trailing" secondItem="Ndz-LR-P5y" secondAttribute="trailing" id="ivw-do-pcR"/>
-                        <constraint firstItem="Ndz-LR-P5y" firstAttribute="leading" secondItem="9de-UW-Jch" secondAttribute="leading" id="loy-WU-7Cq"/>
-                        <constraint firstItem="5fB-jz-Ea7" firstAttribute="leading" secondItem="9de-UW-Jch" secondAttribute="leading" id="reO-jD-tD2"/>
-                        <constraint firstItem="myD-GG-MMU" firstAttribute="top" secondItem="9de-UW-Jch" secondAttribute="top" constant="10" id="xeF-Fk-2bN"/>
-                    </constraints>
-                </scrollView>
-            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-            <constraints>
-                <constraint firstAttribute="bottom" secondItem="9de-UW-Jch" secondAttribute="bottom" id="NMg-BW-OSN"/>
-                <constraint firstAttribute="trailing" secondItem="9de-UW-Jch" secondAttribute="trailing" id="Oeo-ta-R3x"/>
-                <constraint firstItem="myD-GG-MMU" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="W04-oc-eqE"/>
-                <constraint firstItem="9de-UW-Jch" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="cG9-c5-1cN"/>
-                <constraint firstItem="9de-UW-Jch" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="hUV-X4-A8a"/>
-            </constraints>
             <point key="canvasLocation" x="62.5" y="-319.5"/>
         </view>
     </objects>

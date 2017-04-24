@@ -3,13 +3,12 @@
 //  SMCustomViewXIB
 //
 //  Created by __liangdahong on 2017/4/23.
-//  Copyright © 2017年 http://idhong.com. All rights reserved.
+//  Copyright © 2017年 https://github.com/asiosldh/SMCustomViewXIB All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+#import "SMCustomViewXIB.h"  
 
-@interface SMCustom1View : UIView
-
-+ (instancetype)custom1ViewWithTitle:(NSString *)title open:(BOOL)open;
+@interface SMCustom1View : UIView <SMCustomViewXIBProtocol>
 
 @end

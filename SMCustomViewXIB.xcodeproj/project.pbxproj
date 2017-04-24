@@ -23,7 +23,6 @@
 		3126232A1EACB14300790D30 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3126231D1EACB14300790D30 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		3126232B1EACB14300790D30 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3126231F1EACB14300790D30 /* View+MASAdditions.m */; };
 		3126232C1EACB14300790D30 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 312623221EACB14300790D30 /* ViewController+MASAdditions.m */; };
-		312623621EACF3AD00790D30 /* SMCustomViewXIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 312623611EACF3AD00790D30 /* SMCustomViewXIB.m */; };
 		32E422821EAD851700B00F67 /* SMRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E4225C1EAD851700B00F67 /* SMRootVC.m */; };
 		32E422831EAD851700B00F67 /* SMRootVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32E4225D1EAD851700B00F67 /* SMRootVC.xib */; };
 		32E422841EAD851700B00F67 /* SMCustom1VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E422611EAD851700B00F67 /* SMCustom1VC.m */; };
@@ -34,16 +33,13 @@
 		32E422891EAD851700B00F67 /* SMCustom2VC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32E4226B1EAD851700B00F67 /* SMCustom2VC.xib */; };
 		32E4228A1EAD851700B00F67 /* SMCustom2View.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E4226F1EAD851700B00F67 /* SMCustom2View.m */; };
 		32E4228B1EAD851700B00F67 /* SMCustom2View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32E422701EAD851700B00F67 /* SMCustom2View.xib */; };
-		32E4228C1EAD851700B00F67 /* SMCustom3View.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E422731EAD851700B00F67 /* SMCustom3View.m */; };
-		32E4228D1EAD851700B00F67 /* SMCustom3View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32E422741EAD851700B00F67 /* SMCustom3View.xib */; };
-		32E4228E1EAD851700B00F67 /* SMCustom4View.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E422771EAD851700B00F67 /* SMCustom4View.m */; };
-		32E4228F1EAD851700B00F67 /* SMCustom4View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32E422781EAD851700B00F67 /* SMCustom4View.xib */; };
 		32E422901EAD851700B00F67 /* SMCustom3VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E4227C1EAD851700B00F67 /* SMCustom3VC.m */; };
 		32E422911EAD851700B00F67 /* SMCustom3VC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32E4227D1EAD851700B00F67 /* SMCustom3VC.xib */; };
-		32E422921EAD851700B00F67 /* SMCustom3VCView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E422801EAD851700B00F67 /* SMCustom3VCView1.m */; };
-		32E422931EAD851700B00F67 /* SMCustom3VCView1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32E422811EAD851700B00F67 /* SMCustom3VCView1.xib */; };
-		32E4229F1EAD945E00B00F67 /* SMCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E4229E1EAD945E00B00F67 /* SMCustomView.m */; };
-		32E422A11EAD946F00B00F67 /* SMCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32E422A01EAD946F00B00F67 /* SMCustomView.xib */; };
+		32E422BD1EADA71800B00F67 /* SMCustom3View1.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E422B31EADA71800B00F67 /* SMCustom3View1.m */; };
+		32E422BE1EADA71800B00F67 /* SMCustom3View1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32E422B41EADA71800B00F67 /* SMCustom3View1.xib */; };
+		32E422BF1EADA71800B00F67 /* SMCustom3View2.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E422B71EADA71800B00F67 /* SMCustom3View2.m */; };
+		32E422C01EADA71800B00F67 /* SMCustom3View2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32E422B81EADA71800B00F67 /* SMCustom3View2.xib */; };
+		32E422C61EADAE7700B00F67 /* SMCustomViewXIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E422C51EADAE7700B00F67 /* SMCustomViewXIB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,8 +98,6 @@
 		312623201EACB14300790D30 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		312623211EACB14300790D30 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		312623221EACB14300790D30 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		312623601EACF3AD00790D30 /* SMCustomViewXIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCustomViewXIB.h; sourceTree = "<group>"; };
-		312623611EACF3AD00790D30 /* SMCustomViewXIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCustomViewXIB.m; sourceTree = "<group>"; };
 		32E4225B1EAD851700B00F67 /* SMRootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMRootVC.h; sourceTree = "<group>"; };
 		32E4225C1EAD851700B00F67 /* SMRootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMRootVC.m; sourceTree = "<group>"; };
 		32E4225D1EAD851700B00F67 /* SMRootVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMRootVC.xib; sourceTree = "<group>"; };
@@ -119,21 +113,17 @@
 		32E4226E1EAD851700B00F67 /* SMCustom2View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCustom2View.h; sourceTree = "<group>"; };
 		32E4226F1EAD851700B00F67 /* SMCustom2View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCustom2View.m; sourceTree = "<group>"; };
 		32E422701EAD851700B00F67 /* SMCustom2View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMCustom2View.xib; sourceTree = "<group>"; };
-		32E422721EAD851700B00F67 /* SMCustom3View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCustom3View.h; sourceTree = "<group>"; };
-		32E422731EAD851700B00F67 /* SMCustom3View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCustom3View.m; sourceTree = "<group>"; };
-		32E422741EAD851700B00F67 /* SMCustom3View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMCustom3View.xib; sourceTree = "<group>"; };
-		32E422761EAD851700B00F67 /* SMCustom4View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCustom4View.h; sourceTree = "<group>"; };
-		32E422771EAD851700B00F67 /* SMCustom4View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCustom4View.m; sourceTree = "<group>"; };
-		32E422781EAD851700B00F67 /* SMCustom4View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMCustom4View.xib; sourceTree = "<group>"; };
 		32E4227B1EAD851700B00F67 /* SMCustom3VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCustom3VC.h; sourceTree = "<group>"; };
 		32E4227C1EAD851700B00F67 /* SMCustom3VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCustom3VC.m; sourceTree = "<group>"; };
 		32E4227D1EAD851700B00F67 /* SMCustom3VC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMCustom3VC.xib; sourceTree = "<group>"; };
-		32E4227F1EAD851700B00F67 /* SMCustom3VCView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMCustom3VCView1.h; path = ../View/SMCustom3VCView1.h; sourceTree = "<group>"; };
-		32E422801EAD851700B00F67 /* SMCustom3VCView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMCustom3VCView1.m; path = ../View/SMCustom3VCView1.m; sourceTree = "<group>"; };
-		32E422811EAD851700B00F67 /* SMCustom3VCView1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SMCustom3VCView1.xib; path = ../View/SMCustom3VCView1.xib; sourceTree = "<group>"; };
-		32E4229D1EAD945E00B00F67 /* SMCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCustomView.h; sourceTree = "<group>"; };
-		32E4229E1EAD945E00B00F67 /* SMCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCustomView.m; sourceTree = "<group>"; };
-		32E422A01EAD946F00B00F67 /* SMCustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMCustomView.xib; sourceTree = "<group>"; };
+		32E422B21EADA71800B00F67 /* SMCustom3View1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCustom3View1.h; sourceTree = "<group>"; };
+		32E422B31EADA71800B00F67 /* SMCustom3View1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCustom3View1.m; sourceTree = "<group>"; };
+		32E422B41EADA71800B00F67 /* SMCustom3View1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMCustom3View1.xib; sourceTree = "<group>"; };
+		32E422B61EADA71800B00F67 /* SMCustom3View2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCustom3View2.h; sourceTree = "<group>"; };
+		32E422B71EADA71800B00F67 /* SMCustom3View2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCustom3View2.m; sourceTree = "<group>"; };
+		32E422B81EADA71800B00F67 /* SMCustom3View2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMCustom3View2.xib; sourceTree = "<group>"; };
+		32E422C41EADAE7700B00F67 /* SMCustomViewXIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCustomViewXIB.h; sourceTree = "<group>"; };
+		32E422C51EADAE7700B00F67 /* SMCustomViewXIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCustomViewXIB.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +174,7 @@
 		312622C11EACAFE200790D30 /* SMCustomViewXIB */ = {
 			isa = PBXGroup;
 			children = (
+				32E422C31EADAE7700B00F67 /* SMCustomViewXIB */,
 				312622F51EACB03B00790D30 /* AppDelegate */,
 				312622F91EACB03B00790D30 /* Class */,
 				312622FA1EACB03B00790D30 /* Lib */,
@@ -244,7 +235,6 @@
 		312622FA1EACB03B00790D30 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				312623551EACD03B00790D30 /* SMCustomViewXIB */,
 				312623091EACB14300790D30 /* Masonry */,
 			);
 			path = Lib;
@@ -280,15 +270,6 @@
 				312623221EACB14300790D30 /* ViewController+MASAdditions.m */,
 			);
 			path = Masonry;
-			sourceTree = "<group>";
-		};
-		312623551EACD03B00790D30 /* SMCustomViewXIB */ = {
-			isa = PBXGroup;
-			children = (
-				312623601EACF3AD00790D30 /* SMCustomViewXIB.h */,
-				312623611EACF3AD00790D30 /* SMCustomViewXIB.m */,
-			);
-			path = SMCustomViewXIB;
 			sourceTree = "<group>";
 		};
 		32E4225A1EAD851700B00F67 /* Controller */ = {
@@ -353,8 +334,6 @@
 			isa = PBXGroup;
 			children = (
 				32E4226D1EAD851700B00F67 /* SMCustom2View */,
-				32E422711EAD851700B00F67 /* SMCustom3View */,
-				32E422751EAD851700B00F67 /* SMCustom4View */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -369,26 +348,6 @@
 			path = SMCustom2View;
 			sourceTree = "<group>";
 		};
-		32E422711EAD851700B00F67 /* SMCustom3View */ = {
-			isa = PBXGroup;
-			children = (
-				32E422721EAD851700B00F67 /* SMCustom3View.h */,
-				32E422731EAD851700B00F67 /* SMCustom3View.m */,
-				32E422741EAD851700B00F67 /* SMCustom3View.xib */,
-			);
-			path = SMCustom3View;
-			sourceTree = "<group>";
-		};
-		32E422751EAD851700B00F67 /* SMCustom4View */ = {
-			isa = PBXGroup;
-			children = (
-				32E422761EAD851700B00F67 /* SMCustom4View.h */,
-				32E422771EAD851700B00F67 /* SMCustom4View.m */,
-				32E422781EAD851700B00F67 /* SMCustom4View.xib */,
-			);
-			path = SMCustom4View;
-			sourceTree = "<group>";
-		};
 		32E422791EAD851700B00F67 /* Custom3 */ = {
 			isa = PBXGroup;
 			children = (
@@ -401,9 +360,6 @@
 		32E4227A1EAD851700B00F67 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				32E4227F1EAD851700B00F67 /* SMCustom3VCView1.h */,
-				32E422801EAD851700B00F67 /* SMCustom3VCView1.m */,
-				32E422811EAD851700B00F67 /* SMCustom3VCView1.xib */,
 				32E4227B1EAD851700B00F67 /* SMCustom3VC.h */,
 				32E4227C1EAD851700B00F67 /* SMCustom3VC.m */,
 				32E4227D1EAD851700B00F67 /* SMCustom3VC.xib */,
@@ -414,11 +370,39 @@
 		32E4227E1EAD851700B00F67 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				32E4229D1EAD945E00B00F67 /* SMCustomView.h */,
-				32E4229E1EAD945E00B00F67 /* SMCustomView.m */,
-				32E422A01EAD946F00B00F67 /* SMCustomView.xib */,
+				32E422B11EADA71800B00F67 /* SMCustom3View1 */,
+				32E422B51EADA71800B00F67 /* SMCustom3View2 */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		32E422B11EADA71800B00F67 /* SMCustom3View1 */ = {
+			isa = PBXGroup;
+			children = (
+				32E422B21EADA71800B00F67 /* SMCustom3View1.h */,
+				32E422B31EADA71800B00F67 /* SMCustom3View1.m */,
+				32E422B41EADA71800B00F67 /* SMCustom3View1.xib */,
+			);
+			path = SMCustom3View1;
+			sourceTree = "<group>";
+		};
+		32E422B51EADA71800B00F67 /* SMCustom3View2 */ = {
+			isa = PBXGroup;
+			children = (
+				32E422B61EADA71800B00F67 /* SMCustom3View2.h */,
+				32E422B71EADA71800B00F67 /* SMCustom3View2.m */,
+				32E422B81EADA71800B00F67 /* SMCustom3View2.xib */,
+			);
+			path = SMCustom3View2;
+			sourceTree = "<group>";
+		};
+		32E422C31EADAE7700B00F67 /* SMCustomViewXIB */ = {
+			isa = PBXGroup;
+			children = (
+				32E422C41EADAE7700B00F67 /* SMCustomViewXIB.h */,
+				32E422C51EADAE7700B00F67 /* SMCustomViewXIB.m */,
+			);
+			path = SMCustomViewXIB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -530,14 +514,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32E4228F1EAD851700B00F67 /* SMCustom4View.xib in Resources */,
 				32E422831EAD851700B00F67 /* SMRootVC.xib in Resources */,
+				32E422BE1EADA71800B00F67 /* SMCustom3View1.xib in Resources */,
 				32E422851EAD851700B00F67 /* SMCustom1VC.xib in Resources */,
-				32E422A11EAD946F00B00F67 /* SMCustomView.xib in Resources */,
+				32E422C01EADA71800B00F67 /* SMCustom3View2.xib in Resources */,
 				32E422911EAD851700B00F67 /* SMCustom3VC.xib in Resources */,
 				312622D21EACAFE200790D30 /* LaunchScreen.storyboard in Resources */,
-				32E4228D1EAD851700B00F67 /* SMCustom3View.xib in Resources */,
-				32E422931EAD851700B00F67 /* SMCustom3VCView1.xib in Resources */,
 				32E422871EAD851700B00F67 /* SMCustom1View.xib in Resources */,
 				32E422891EAD851700B00F67 /* SMCustom2VC.xib in Resources */,
 				32E4228B1EAD851700B00F67 /* SMCustom2View.xib in Resources */,
@@ -572,21 +554,19 @@
 				3126232A1EACB14300790D30 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				32E4228A1EAD851700B00F67 /* SMCustom2View.m in Sources */,
 				312623281EACB14300790D30 /* MASViewConstraint.m in Sources */,
-				312623621EACF3AD00790D30 /* SMCustomViewXIB.m in Sources */,
+				32E422BF1EADA71800B00F67 /* SMCustom3View2.m in Sources */,
 				312623231EACB14300790D30 /* MASCompositeConstraint.m in Sources */,
-				32E422921EAD851700B00F67 /* SMCustom3VCView1.m in Sources */,
 				312623291EACB14300790D30 /* NSArray+MASAdditions.m in Sources */,
 				312622FC1EACB03B00790D30 /* main.m in Sources */,
 				312622FB1EACB03B00790D30 /* AppDelegate.m in Sources */,
 				312623261EACB14300790D30 /* MASLayoutConstraint.m in Sources */,
-				32E4229F1EAD945E00B00F67 /* SMCustomView.m in Sources */,
 				3126232C1EACB14300790D30 /* ViewController+MASAdditions.m in Sources */,
 				3126232B1EACB14300790D30 /* View+MASAdditions.m in Sources */,
-				32E4228C1EAD851700B00F67 /* SMCustom3View.m in Sources */,
 				32E422901EAD851700B00F67 /* SMCustom3VC.m in Sources */,
 				312623271EACB14300790D30 /* MASViewAttribute.m in Sources */,
-				32E4228E1EAD851700B00F67 /* SMCustom4View.m in Sources */,
+				32E422C61EADAE7700B00F67 /* SMCustomViewXIB.m in Sources */,
 				312623241EACB14300790D30 /* MASConstraint.m in Sources */,
+				32E422BD1EADA71800B00F67 /* SMCustom3View1.m in Sources */,
 				32E422821EAD851700B00F67 /* SMRootVC.m in Sources */,
 				312623251EACB14300790D30 /* MASConstraintMaker.m in Sources */,
 			);

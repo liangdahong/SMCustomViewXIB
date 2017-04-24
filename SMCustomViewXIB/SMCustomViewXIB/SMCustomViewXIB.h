@@ -3,7 +3,7 @@
 //  SMCustomViewXIB
 //
 //  Created by __liangdahong on 2017/4/23.
-//  Copyright © 2017年 http://idhong.com. All rights reserved.
+//  Copyright © 2017年 https://github.com/asiosldh/SMCustomViewXIB All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -13,6 +13,6 @@
  1、xib 的 file's Owner 设置为自定义的 View
  2、遵守此协议
  */
-@protocol SMCustomViewXIB <NSObject>
+@protocol SMCustomViewXIBProtocol <NSObject>
 
 @end
