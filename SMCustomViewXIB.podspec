@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'SMCustomViewXIB'
-    s.version      = '0.0.1'
+    s.version      = '0.0.2'
     s.summary      = 'Xib 自定义 View'
     s.homepage     = 'https://github.com/asiosldh/SMCustomViewXIB'
     s.license      = 'MIT'

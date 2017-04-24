@@ -40,6 +40,7 @@
 		32E422BF1EADA71800B00F67 /* SMCustom3View2.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E422B71EADA71800B00F67 /* SMCustom3View2.m */; };
 		32E422C01EADA71800B00F67 /* SMCustom3View2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32E422B81EADA71800B00F67 /* SMCustom3View2.xib */; };
 		32E422C61EADAE7700B00F67 /* SMCustomViewXIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E422C51EADAE7700B00F67 /* SMCustomViewXIB.m */; };
+		32E422C81EADBC1200B00F67 /* SMCustomViewXIB.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 32E422C71EADBC1200B00F67 /* SMCustomViewXIB.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +125,7 @@
 		32E422B81EADA71800B00F67 /* SMCustom3View2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMCustom3View2.xib; sourceTree = "<group>"; };
 		32E422C41EADAE7700B00F67 /* SMCustomViewXIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCustomViewXIB.h; sourceTree = "<group>"; };
 		32E422C51EADAE7700B00F67 /* SMCustomViewXIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCustomViewXIB.m; sourceTree = "<group>"; };
+		32E422C71EADBC1200B00F67 /* SMCustomViewXIB.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SMCustomViewXIB.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 		312622B61EACAFE100790D30 = {
 			isa = PBXGroup;
 			children = (
+				32E422C71EADBC1200B00F67 /* SMCustomViewXIB.podspec */,
 				312622C11EACAFE200790D30 /* SMCustomViewXIB */,
 				312622DB1EACAFE200790D30 /* SMCustomViewXIBTests */,
 				312622E61EACAFE200790D30 /* SMCustomViewXIBUITests */,
@@ -523,6 +526,7 @@
 				32E422871EAD851700B00F67 /* SMCustom1View.xib in Resources */,
 				32E422891EAD851700B00F67 /* SMCustom2VC.xib in Resources */,
 				32E4228B1EAD851700B00F67 /* SMCustom2View.xib in Resources */,
+				32E422C81EADBC1200B00F67 /* SMCustomViewXIB.podspec in Resources */,
 				312622CF1EACAFE200790D30 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
