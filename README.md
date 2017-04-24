@@ -2,6 +2,8 @@
 
 > 在 iOS 开发中，特别的搭建 UI 时，用 **Interface Builder** 简直就是一大**神器**，甚至有时候不需要一件代码，只需要 **拖拖拽拽** 就可以完成项目需求。下面从使用 **XIB**自定义**View**说起。
 
+
+
 [![Version](https://img.shields.io/cocoapods/v/SMCustomViewXIB.svg?style=flat)](http://cocoapods.org/pods/SMCustomViewXIB)
 [![License](https://img.shields.io/cocoapods/l/SMCustomViewXIB.svg?style=flat)](http://cocoapods.org/pods/SMCustomViewXIB)
 [![Platform](https://img.shields.io/cocoapods/p/SMCustomViewXIB.svg?style=flat)](http://cocoapods.org/pods/SMCustomViewXIB)
