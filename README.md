@@ -88,12 +88,12 @@
 
 <img src="image/1-gif.gif" width="50%">
 
-- 使用，只需要自定义的view 遵守 SMCustomViewXIB 协议即可.
+- 使用，只需要自定义的view 遵守 SMCustomViewXIBProtocol 协议即可.
 
 		#import <UIKit/UIKit.h>
 		#import "SMCustomViewXIB.h"  
 		
-		@interface SMCustom1View : UIView <SMCustomViewXIB>
+		@interface SMCustom1View : UIView <SMCustomViewXIBProtocol>
 		
 		@end
 
