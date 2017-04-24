@@ -59,10 +59,7 @@ static NSMutableDictionary *classDictionary = nil;
 }
 
 - (void)addCustomView {
-
-    if (DEBUG) {
-        NSLog(@"view: %@", NSStringFromClass(self.class));
-    }
+    
     if (![self conformsToProtocol:@protocol(SMCustomViewXIBProtocol)]) {
         return;
     }
