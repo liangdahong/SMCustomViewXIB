@@ -3,12 +3,11 @@
 > 在 iOS 开发中，特别的搭建 UI 时，用 **Interface Builder** 简直就是一大**神器**，甚至有时候不需要一件代码，只需要 **拖拖拽拽** 就可以完成项目需求。下面从使用 **XIB**自定义**View**说起。
 
 
-
-[![Version](https://img.shields.io/cocoapods/v/SMCustomViewXIB.svg?style=flat)](http://cocoapods.org/pods/SMCustomViewXIB)
-[![License](https://img.shields.io/cocoapods/l/SMCustomViewXIB.svg?style=flat)](http://cocoapods.org/pods/SMCustomViewXIB)
-[![Platform](https://img.shields.io/cocoapods/p/SMCustomViewXIB.svg?style=flat)](http://cocoapods.org/pods/SMCustomViewXIB)
-[![Support](https://img.shields.io/badge/support-iOS%208%2B%20-blue.svg?style=flat)](https://www.apple.com/nl/ios/)&nbsp;
-[![Weibo](https://img.shields.io/badge/Sina微博-@梁大红-yellow.svg?style=flat)](http://weibo.com/liangdahong)
+[![Version](https://img.shields.io/cocoapods/v/SMCustomViewXIB.svg?style=flat)](http://cocoapods.org/pods/SMCustomViewXIB) 
+[![License](https://img.shields.io/cocoapods/l/SMCustomViewXIB.svg?style=flat)](http://cocoapods.org/pods/SMCustomViewXIB) 
+[![Platform](https://img.shields.io/cocoapods/p/SMCustomViewXIB.svg?style=flat)](http://cocoapods.org/pods/SMCustomViewXIB) 
+[![Support](https://img.shields.io/badge/support-iOS%208%2B%20-blue.svg?style=flat)](https://www.apple.com/nl/ios/) 
+[![Weibo](https://img.shields.io/badge/Sina微博-@梁大红-yellow.svg?style=flat)](http://weibo.com/liangdahong) 
 [![GitHub stars](https://img.shields.io/github/stars/asiosldh/SMCustomViewXIB.svg)](https://github.com/asiosldh/SMCustomViewXIB/stargazers)
 
 ## Xib自定义的View使用代码添加
