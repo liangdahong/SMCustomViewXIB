@@ -2,6 +2,13 @@
 
 > 在 iOS 开发中，特别的搭建 UI 时，用 **Interface Builder** 简直就是一大 **神器**，甚至有时候不需要一件代码，只需要 **拖拖拽拽** 就可以完成项目需求。下面从使用 **XIB** 自定义 **View** 的一些使用。
 
+[![Version](https://img.shields.io/cocoapods/v/SMCustomViewXIB.svg?style=flat)](http://cocoapods.org/pods/SMCustomViewXIB)
+[![License](https://img.shields.io/cocoapods/l/SMCustomViewXIB.svg?style=flat)](http://cocoapods.org/pods/SMCustomViewXIB)
+[![Platform](https://img.shields.io/cocoapods/p/SMCustomViewXIB.svg?style=flat)](http://cocoapods.org/pods/SMCustomViewXIB)
+[![Support](https://img.shields.io/badge/support-iOS%208%2B%20-blue.svg?style=flat)](https://www.apple.com/nl/ios/)&nbsp;
+[![Weibo](https://img.shields.io/badge/Sina微博-@梁大红-yellow.svg?style=flat)](http://weibo.com/liangdahong)
+[![GitHub stars](https://img.shields.io/github/stars/asiosldh/SMCustomViewXIB.svg)](https://github.com/asiosldh/SMCustomViewXIB/stargazers)
+
 ## Xib 自定义的 View 使用代码添加
 
 - 创建工程，在创建一个 自定义的View 继承于 UIView
@@ -89,24 +96,27 @@
 <img src="image/1-gif.gif" width="50%">
 
 
-## 使用
+## CocoaPods
+CocoaPods is the recommended way to add SMCustomViewXIB to your project.
 
--  pod
+Add a pod entry for SMCustomViewXIB to your Podfile.
 
-	`pod 'SMCustomViewXIB', '~> 0.0.2'`
-
--  只需要自定义的view 遵守 SMCustomViewXIBProtocol 协议即可.
-
-		#import <UIKit/UIKit.h>
-		#import "SMCustomViewXIB.h"  
+	pod 'SMCustomViewXIB', '~> 0.0.2'
 		
-		@interface SMCustom1View : UIView <SMCustomViewXIBProtocol>
-		
-		@end
+Second, install JHUD into your project:
 
-## 最后的话
-- [blog 讲解地址](http://idhong.com/2017/04/23/Xib%E8%87%AA%E5%AE%9A%E4%B9%89View%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E6%94%BE%E5%BC%83/)
-- 使用中有任何问题请联系我
+	pod install
+	
+Include SMCustomViewXIB wherever you need it with `#import "SMCustomViewXIB.h"`.
+	
+
+Comply with the `SMCustomViewXIBProtocol ` protocol 
+
+
+## Contacts
+##### Sina : [@梁大红](http://weibo.com/3205872327)
+##### blog : [@idhong](http://idhong.com/2017/04/23/Xib%E8%87%AA%E5%AE%9A%E4%B9%89View%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E6%94%BE%E5%BC%83/)
+
 
 ## License
-[MIT license](https://github.com/asiosldh/SMCustomViewXIB/blob/master/LICENSE)
+SMCustomViewXIB is released under the [MIT license](LICENSE). 
