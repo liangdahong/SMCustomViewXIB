@@ -59,12 +59,17 @@ static NSMutableDictionary *classDictionary = nil;
 }
 
 - (void)addCustomView {
+
+    if (DEBUG) {
+        NSLog(@"view: %@", NSStringFromClass(self.class));
+    }
+    if (![self conformsToProtocol:@protocol(SMCustomViewXIB)]) {
+        return;
+    }
     
     id value = classDictionary[NSStringFromClass(self.class)];
-    if (value) {
-        if ([value boolValue]) {
-            [self addView];
-        }
+    if (value && [value boolValue] && self.subviews.count == 0) {
+        [self addView];
     } else {
 
         NSString *path = [[NSBundle mainBundle] pathForResource:NSStringFromClass([self class]) ofType:@"nib"];
@@ -78,6 +83,9 @@ static NSMutableDictionary *classDictionary = nil;
             || [self isKindOfClass:UICollectionViewCell.class]
             || [self isKindOfClass:UICollectionReusableView.class]) {
             classDictionary[NSStringFromClass(self.class)] = @NO;
+            return;
+        }
+        if (self.subviews.count) {
             return;
         }
         [self addView];

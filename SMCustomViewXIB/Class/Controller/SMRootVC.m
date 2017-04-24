@@ -10,6 +10,7 @@
 #import "SMRootVC.h"
 #import "SMCustom1VC.h"
 #import "SMCustom2VC.h"
+#import "SMCustom3VC.h"
 
 @interface SMRootVC ()
 
@@ -36,6 +37,13 @@
 #pragma mark - 事件响应
 
 - (IBAction)custom1ButtonClick {
+    [self.navigationController pushViewController:[SMCustom1VC new] animated:YES];
+}
+- (IBAction)custom2ButtonClick {
     [self.navigationController pushViewController:[SMCustom2VC new] animated:YES];
+}
+
+- (IBAction)custom3ButtonClick {
+    [self.navigationController pushViewController:[SMCustom3VC new] animated:YES];
 }
 @end

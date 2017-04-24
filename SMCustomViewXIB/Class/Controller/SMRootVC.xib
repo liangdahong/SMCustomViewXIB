@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -25,12 +25,31 @@
                     <constraints>
                         <constraint firstAttribute="height" constant="30" id="c8D-HA-vN7"/>
                     </constraints>
-                    <state key="normal">
-                        <string key="title">SMCustom1
-</string>
-                    </state>
+                    <state key="normal" title="代码加载 xib 封装的view"/>
                     <connections>
                         <action selector="custom1ButtonClick" destination="-1" eventType="touchUpInside" id="ZP2-o8-bDK"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vva-DA-PUT">
+                    <rect key="frame" x="0.0" y="70" width="375" height="30"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Vll-rb-Azg"/>
+                    </constraints>
+                    <state key="normal" title="xib 加载 xib 封装的view"/>
+                    <connections>
+                        <action selector="custom2ButtonClick" destination="-1" eventType="touchUpInside" id="TUG-6b-SzM"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yiy-kL-mmb">
+                    <rect key="frame" x="0.0" y="120" width="375" height="30"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="mBX-26-P22"/>
+                    </constraints>
+                    <state key="normal" title="new 加载 xib 封装的view"/>
+                    <connections>
+                        <action selector="custom3ButtonClick" destination="-1" eventType="touchUpInside" id="x8R-2f-Jwn"/>
                     </connections>
                 </button>
             </subviews>
@@ -39,7 +58,14 @@
                 <constraint firstItem="WUx-FC-C1N" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="OPf-dM-CPE"/>
                 <constraint firstAttribute="trailing" secondItem="WUx-FC-C1N" secondAttribute="trailing" id="avH-sY-K39"/>
                 <constraint firstItem="WUx-FC-C1N" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="fuP-Bj-Ssh"/>
+                <constraint firstItem="Vva-DA-PUT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="g9n-FZ-MBf"/>
+                <constraint firstAttribute="trailing" secondItem="Yiy-kL-mmb" secondAttribute="trailing" id="nlX-T4-7El"/>
+                <constraint firstAttribute="trailing" secondItem="Vva-DA-PUT" secondAttribute="trailing" id="owV-wB-QYB"/>
+                <constraint firstItem="Yiy-kL-mmb" firstAttribute="top" secondItem="Vva-DA-PUT" secondAttribute="bottom" constant="20" id="q1W-Ti-lUT"/>
+                <constraint firstItem="Vva-DA-PUT" firstAttribute="top" secondItem="WUx-FC-C1N" secondAttribute="bottom" constant="20" id="vuF-iz-yJ3"/>
+                <constraint firstItem="Yiy-kL-mmb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ySl-y1-V29"/>
             </constraints>
+            <point key="canvasLocation" x="-314" y="57"/>
         </view>
     </objects>
 </document>

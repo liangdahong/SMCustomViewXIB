@@ -1,4 +1,7 @@
-# SMCustomViewXIB
-**Xib** 自定义 **View** 从入门到放弃
+# **Xib** 自定义 **View** 从入门到放弃
 
-[**blog**](http://idhong.com/2017/04/23/Xib%E8%87%AA%E5%AE%9A%E4%B9%89View%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E6%94%BE%E5%BC%83/)
+> 在 iOS 开发中，特别的搭建 UI 时，用 **Interface Builder** 简直就是一大 **神器**，甚至有时候不需要一件代码，只需要 **拖拖拽拽** 就可以完成项目需求。下面从使用 **XIB** 自定义 **View** 的一些使用。
+
+## Xib 自定义的 View 使用代码添加
+
+- 创建工程，在创建一个 自定义的View 继承于 UIView
