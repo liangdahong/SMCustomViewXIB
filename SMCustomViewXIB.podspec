@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
     s.summary      = 'Xib 自定义 View'
     s.homepage     = 'https://github.com/asiosldh/SMCustomViewXIB'
     s.license      = 'MIT'
-    s.authors      = {'liangdahong' => 'asiosldh@163.com'}
+    s.authors      = {'liangdahong' => 'liangdahong@bluemoon.com.cn'}
     s.platform     = :ios, '8.0'
     s.source       = {:git => 'https://github.com/asiosldh/SMCustomViewXIB.git', :tag => s.version}
     s.source_files = 'SMCustomViewXIB/SMCustomViewXIB/**/*.{h,m}'
