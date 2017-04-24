@@ -88,7 +88,14 @@
 
 <img src="image/1-gif.gif" width="50%">
 
-- 使用，只需要自定义的view 遵守 SMCustomViewXIBProtocol 协议即可.
+
+## 使用
+
+-  pod
+
+	`pod 'SMCustomViewXIB', '~> 0.0.2'`
+
+-  只需要自定义的view 遵守 SMCustomViewXIBProtocol 协议即可.
 
 		#import <UIKit/UIKit.h>
 		#import "SMCustomViewXIB.h"  
