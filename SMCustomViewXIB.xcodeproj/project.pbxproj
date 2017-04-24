@@ -42,6 +42,8 @@
 		32E422911EAD851700B00F67 /* SMCustom3VC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32E4227D1EAD851700B00F67 /* SMCustom3VC.xib */; };
 		32E422921EAD851700B00F67 /* SMCustom3VCView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E422801EAD851700B00F67 /* SMCustom3VCView1.m */; };
 		32E422931EAD851700B00F67 /* SMCustom3VCView1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32E422811EAD851700B00F67 /* SMCustom3VCView1.xib */; };
+		32E4229F1EAD945E00B00F67 /* SMCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E4229E1EAD945E00B00F67 /* SMCustomView.m */; };
+		32E422A11EAD946F00B00F67 /* SMCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32E422A01EAD946F00B00F67 /* SMCustomView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,9 +128,12 @@
 		32E4227B1EAD851700B00F67 /* SMCustom3VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCustom3VC.h; sourceTree = "<group>"; };
 		32E4227C1EAD851700B00F67 /* SMCustom3VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCustom3VC.m; sourceTree = "<group>"; };
 		32E4227D1EAD851700B00F67 /* SMCustom3VC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMCustom3VC.xib; sourceTree = "<group>"; };
-		32E4227F1EAD851700B00F67 /* SMCustom3VCView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCustom3VCView1.h; sourceTree = "<group>"; };
-		32E422801EAD851700B00F67 /* SMCustom3VCView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCustom3VCView1.m; sourceTree = "<group>"; };
-		32E422811EAD851700B00F67 /* SMCustom3VCView1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMCustom3VCView1.xib; sourceTree = "<group>"; };
+		32E4227F1EAD851700B00F67 /* SMCustom3VCView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMCustom3VCView1.h; path = ../View/SMCustom3VCView1.h; sourceTree = "<group>"; };
+		32E422801EAD851700B00F67 /* SMCustom3VCView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMCustom3VCView1.m; path = ../View/SMCustom3VCView1.m; sourceTree = "<group>"; };
+		32E422811EAD851700B00F67 /* SMCustom3VCView1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SMCustom3VCView1.xib; path = ../View/SMCustom3VCView1.xib; sourceTree = "<group>"; };
+		32E4229D1EAD945E00B00F67 /* SMCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCustomView.h; sourceTree = "<group>"; };
+		32E4229E1EAD945E00B00F67 /* SMCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCustomView.m; sourceTree = "<group>"; };
+		32E422A01EAD946F00B00F67 /* SMCustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMCustomView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -396,6 +401,9 @@
 		32E4227A1EAD851700B00F67 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				32E4227F1EAD851700B00F67 /* SMCustom3VCView1.h */,
+				32E422801EAD851700B00F67 /* SMCustom3VCView1.m */,
+				32E422811EAD851700B00F67 /* SMCustom3VCView1.xib */,
 				32E4227B1EAD851700B00F67 /* SMCustom3VC.h */,
 				32E4227C1EAD851700B00F67 /* SMCustom3VC.m */,
 				32E4227D1EAD851700B00F67 /* SMCustom3VC.xib */,
@@ -406,9 +414,9 @@
 		32E4227E1EAD851700B00F67 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				32E4227F1EAD851700B00F67 /* SMCustom3VCView1.h */,
-				32E422801EAD851700B00F67 /* SMCustom3VCView1.m */,
-				32E422811EAD851700B00F67 /* SMCustom3VCView1.xib */,
+				32E4229D1EAD945E00B00F67 /* SMCustomView.h */,
+				32E4229E1EAD945E00B00F67 /* SMCustomView.m */,
+				32E422A01EAD946F00B00F67 /* SMCustomView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -525,6 +533,7 @@
 				32E4228F1EAD851700B00F67 /* SMCustom4View.xib in Resources */,
 				32E422831EAD851700B00F67 /* SMRootVC.xib in Resources */,
 				32E422851EAD851700B00F67 /* SMCustom1VC.xib in Resources */,
+				32E422A11EAD946F00B00F67 /* SMCustomView.xib in Resources */,
 				32E422911EAD851700B00F67 /* SMCustom3VC.xib in Resources */,
 				312622D21EACAFE200790D30 /* LaunchScreen.storyboard in Resources */,
 				32E4228D1EAD851700B00F67 /* SMCustom3View.xib in Resources */,
@@ -570,6 +579,7 @@
 				312622FC1EACB03B00790D30 /* main.m in Sources */,
 				312622FB1EACB03B00790D30 /* AppDelegate.m in Sources */,
 				312623261EACB14300790D30 /* MASLayoutConstraint.m in Sources */,
+				32E4229F1EAD945E00B00F67 /* SMCustomView.m in Sources */,
 				3126232C1EACB14300790D30 /* ViewController+MASAdditions.m in Sources */,
 				3126232B1EACB14300790D30 /* View+MASAdditions.m in Sources */,
 				32E4228C1EAD851700B00F67 /* SMCustom3View.m in Sources */,
