@@ -1,6 +1,6 @@
 # **Xib** 自定义 **View** 从入门到放弃
 
-> 在 iOS 开发中，特别的搭建 UI 时，用 **Interface Builder** 简直就是一大 **神器**，甚至有时候不需要一件代码，只需要 **拖拖拽拽** 就可以完成项目需求。下面从使用 **XIB** 自定义 **View** 的一些使用。
+> 在 iOS 开发中，特别的搭建 UI 时，用 **Interface Builder** 简直就是一大**神器**，甚至有时候不需要一件代码，只需要 **拖拖拽拽** 就可以完成项目需求。下面从使用 **XIB**自定义**View**说起。
 
 [![Version](https://img.shields.io/cocoapods/v/SMCustomViewXIB.svg?style=flat)](http://cocoapods.org/pods/SMCustomViewXIB)
 [![License](https://img.shields.io/cocoapods/l/SMCustomViewXIB.svg?style=flat)](http://cocoapods.org/pods/SMCustomViewXIB)
@@ -9,7 +9,7 @@
 [![Weibo](https://img.shields.io/badge/Sina微博-@梁大红-yellow.svg?style=flat)](http://weibo.com/liangdahong)
 [![GitHub stars](https://img.shields.io/github/stars/asiosldh/SMCustomViewXIB.svg)](https://github.com/asiosldh/SMCustomViewXIB/stargazers)
 
-## Xib 自定义的 View 使用代码添加
+## Xib自定义的View使用代码添加
 
 - 创建工程，在创建一个 自定义的View 继承于 UIView             
 <img src="image/1.png" width="40%">
@@ -54,7 +54,7 @@
 
 ## Xib自定义的View ，直接在Xib 里添加
 - 效果如下：（没有加一件代码）                                 
-<img src="image/7.png" width="40%">  
+<img src="image/7.png" width="70%">  
                                
 > 效果已经实现，说一下踩的坑吧。
 
@@ -109,7 +109,7 @@ Add a pod entry for SMCustomViewXIB to your Podfile.
 
 	pod 'SMCustomViewXIB', '~> 0.0.2'
 		
-Second, install JHUD into your project:
+Second, install SMCustomViewXIB into your project:
 
 	pod install
 	
